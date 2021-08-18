@@ -1,16 +1,3 @@
-아래의 문제를 해결하기 위해서 참고할 자료는 WWDC 세션에서만 찾습니다.   
-그 외에는 [LLDB 공식 문서](https://lldb.llvm.org/)까지만 허용합니다.  
-다른 곳에서 자료를 찾는 것은 반칙입니다. 여러분의 양심에 맡깁니다.
-
-# 참고할 WWDC 세션 힌트
-
-* Debugging Tips and Tricks
-* Debugging with Xcode 9
-* Visual Debugging with Xcode
-* LLDB: Beyond "po"
-
----
-
 # 문제 풀이
 
 ## 1. ViewController.swift 파일의 23번째 줄에 브레이크 포인트를 설정하려면 입력해야 하는 LLDB 명령어는?
