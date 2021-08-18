@@ -68,7 +68,7 @@ br di 1.2
 보이지 않는 뷰는 두 번째 View Controller의 정사각형 View
 - 1:1 aspect ratio 제약이 걸려있다.
 
-  <img src="https://user-images.githubusercontent.com/52592748/129889119-001b6a2f-7d7f-498f-8816-686d4f52690f.png" width="300"/><br>
+<img src="https://user-images.githubusercontent.com/52592748/129889119-001b6a2f-7d7f-498f-8816-686d4f52690f.png" width="300"/><br>
 
 1. viewDidLoad에 breakpoint 걸기
 
@@ -77,6 +77,7 @@ br s -f ViewController.swift -l 14
 ```
 
 2. 시뮬레이터에서 NEXT 눌러서 두 번째 ViewController로 이동하기
+
 ![image](https://user-images.githubusercontent.com/52592748/129889207-e34200c6-ae70-4cc0-be81-53d0ee546964.png)
 
 
@@ -85,6 +86,7 @@ br s -f ViewController.swift -l 14
 po self.view.subviews
 ```
 - UIView는 subview 중 0번째 항목
+
 ![image](https://user-images.githubusercontent.com/52592748/129889189-8be419c6-e505-487b-b24a-5cc2c0db4499.png)
 
 4. 제약 확인하기
@@ -92,6 +94,7 @@ po self.view.subviews
 po self.view.subviews[0].constraints
 ```
 - width와 height가 같다는 제약이 걸려있다 => 1:1 aspect ratio
+
 ![image](https://user-images.githubusercontent.com/52592748/129889239-9de9913a-e68c-460e-bb41-6b424e484261.png)
 
 
@@ -104,6 +107,7 @@ po self.view.subviews[0].constraints
 e self.view.subviews
 ```
 - 아까 po로 출력한 결과와 비교해보면 UIView에 해당하는 것은 0번째 항목이다
+
 ![image](https://user-images.githubusercontent.com/52592748/129889256-1804e461-8027-4ac2-a099-51336489b2de.png)
 
 2. 색상 바꾸기
@@ -137,17 +141,20 @@ frame variable
 - 메서드를 실행하지 못 한다는 제약이 있다. 대신 안전하다
 - data만 볼 수 있는 명령어
 - built-in formatter로 출력한다
+
 ![image](https://user-images.githubusercontent.com/52592748/129889581-7f244ce6-9e30-47d2-a53f-f72844546cb7.png)
 
 ### p
 - 메서드를 실행하는 것도 가능하고 데이터를 보는 것도 가능하다
 - built-in formatter로 출력한다
+
 ![image](https://user-images.githubusercontent.com/52592748/129889619-751550d2-8ad7-40d1-b4a1-f8f8669ef106.png)
 
 ### po
 - 디버거가 생성한 스코프에서 메서드를 실행하는 것이 가능하다
 - self나 추론 등의 기능들을 모두 사용할 수 있다
 - 객체의 debug description method를 호출할 수 있다
+
 ![image](https://user-images.githubusercontent.com/52592748/129889636-9200e371-e36c-43fd-b90b-3e858025f9a7.png)
 
 
