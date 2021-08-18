@@ -132,20 +132,20 @@ command alias [별칭] [명령어]
 
 ### v
 frame variable
-메서드를 실행하지 못 한다는 제약이 있다. 대신 안전하다
-data만 볼 수 있는 명령어
-built-in formatter로 출력한다
+- 메서드를 실행하지 못 한다는 제약이 있다. 대신 안전하다
+- data만 볼 수 있는 명령어
+- built-in formatter로 출력한다
 ![image](https://user-images.githubusercontent.com/52592748/129889581-7f244ce6-9e30-47d2-a53f-f72844546cb7.png)
 
 ### p
-메서드를 실행하는 것도 가능하고 데이터를 보는 것도 가능하다
-built-in formatter로 출력한다
+- 메서드를 실행하는 것도 가능하고 데이터를 보는 것도 가능하다
+- built-in formatter로 출력한다
 ![image](https://user-images.githubusercontent.com/52592748/129889619-751550d2-8ad7-40d1-b4a1-f8f8669ef106.png)
 
 ### po
-디버거가 생성한 스코프에서 메서드를 실행하는 것이 가능하다
-self나 추론 등의 기능들을 모두 사용할 수 있다
-객체의 debug description method를 호출할 수 있다
+- 디버거가 생성한 스코프에서 메서드를 실행하는 것이 가능하다
+- self나 추론 등의 기능들을 모두 사용할 수 있다
+- 객체의 debug description method를 호출할 수 있다
 ![image](https://user-images.githubusercontent.com/52592748/129889636-9200e371-e36c-43fd-b90b-3e858025f9a7.png)
 
 
