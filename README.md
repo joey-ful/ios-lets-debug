@@ -28,7 +28,7 @@ br s -n changeTextColor
 
 1. Symbolic Breakpoint 생성
 
-![image](https://user-images.githubusercontent.com/52592748/129888996-caa8ff54-e8c5-4a46-a5e4-8d4ddc8700a9.png)
+![image](https://user-images.githubusercontent.com/52592748/129889958-d034765c-f434-4397-a365-6eb0c1614303.png)
 
 
 2. 세부 사항 입력
