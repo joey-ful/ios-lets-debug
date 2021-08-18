@@ -9,7 +9,9 @@
 * Visual Debugging with Xcode
 * LLDB: Beyond "po"
 
-# 문제
+---
+
+# 문제 풀이
 
 ## 1. ViewController.swift 파일의 23번째 줄에 브레이크 포인트를 설정하려면 입력해야 하는 LLDB 명령어는?
 
